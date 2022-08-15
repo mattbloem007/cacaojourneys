@@ -140,12 +140,10 @@ const IndexPage = () => (
             Using <strong>NT</strong> wisdom, these first wave of journeys will take us step by step
             into a place where we can allow more sustainable energy to flow through us. We begin as follows:
           </p>
-          <ul className="feature-icons">
-            <li>- Nervous System Health (Vitality) <strong>29 Aug - 2 Sept</strong></li>
-            <li>- Making Space within (2 week cleanse) <strong>16 Sept - 30 Sept</strong></li>
-            <li >- Increasing Chi through Sunlight <strong>7 Oct - 14 Oct</strong></li>
-            <li >- Radiate your Energy (Express your Divinity) <strong>4 Nov - 9 Nov</strong></li>
-          </ul>
+            <p>- Nervous System Health (Vitality) <strong>29 Aug - 2 Sept</strong></p>
+            <p>- Making Space within (2 week cleanse) <strong>16 Sept - 30 Sept</strong></p>
+            <p >- Increasing Chi through Sunlight <strong>7 Oct - 14 Oct</strong></p>
+            <p >- Radiate your Energy (Express your Divinity) <strong>4 Nov - 9 Nov</strong></p>
           <p>
             First we look at the nervous system and how to nourish it to build our capacity to expand
             into higher levels of being. We will then enter into a gentle, gradual cleanse of two weeks

@@ -6,6 +6,14 @@
 
 /* Image */
 
+@include breakpoint('<=medium') {
+	.image.fill img {
+		height: 100%;
+		width: 102%;
+		object-position: right;
+	}
+}
+
 	.image {
 		border: 0;
 		display: inline-block;
@@ -27,7 +35,7 @@
 			}
 		}
 
-		&[data-position="top left"] {
+	/*	&[data-position="top left"] {
 			img {
 				@include vendor('object-position', 'top left');
 			}
@@ -124,7 +132,7 @@
 			float: right;
 			margin: 0 0 2rem 2rem;
 			top: 0.25rem;
-		}
+		}*/
 
 		&.fit {
 			display: block;
@@ -155,7 +163,7 @@
 	/*		left: 0;
 			position: absolute;
 			top: 0; */
-			width: 100%;
+			width: 102%;
 
 			img {
 				//@include vendor('object-fit', 'cover');
