@@ -152,18 +152,18 @@
 
 		&.fill {
 			height: 100%;
-			left: 0;
+	/*		left: 0;
 			position: absolute;
-			top: 0;
+			top: 0; */
 			width: 100%;
 
 			img {
 				//@include vendor('object-fit', 'cover');
 				//@include vendor('object-position', 'center');
 				height: 100%;
-				left: 0;
+			/*	left: 0;
 				position: absolute;
-				top: 0;
+				top: 0;*/
 				width: 100%;
 			}
 		}

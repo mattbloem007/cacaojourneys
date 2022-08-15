@@ -57,6 +57,7 @@ class Gallery extends Component {
     if (!images) return;
 
     const gallery = images.map((obj, i) => {
+      console.log("obj", obj.thumbnail)
       return (
         <a
           key={obj.src}
@@ -64,7 +65,7 @@ class Gallery extends Component {
           onClick={e => this.openLightbox(i, e)}
           className={`${obj.full ? 'landscape' : ''}`}
         >
-          <img src={obj.thumbnail} alt="" />
+          <img src={obj.thumbnail.default} alt="" />
         </a>
       );
     });

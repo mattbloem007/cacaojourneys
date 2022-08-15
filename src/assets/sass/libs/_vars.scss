@@ -40,14 +40,14 @@
 
 // Palette.
 	$palette: (
-		bg:						#ffffff,
-		fg:						#000000,
-		fg-bold:				#000000,
-		fg-light:				rgba(0,0,0,0.25),
-		border:					rgba(144,144,144,0.25),
-		border-bg:				rgba(144,144,144,0.1),
-		accent:					#49fcd4,
-		accent-border:			desaturate(darken(#49fcd4, 8), 30),
-		accent-alt:				desaturate(darken(#49fcd4, 10), 20),
-		accent-bg:				transparentize(#49fcd4, 0.75)
+		bg:						#996515,
+		fg:						#e5e4e2,
+		fg-bold:				#e5e4e2,
+		fg-light:				#e5e4e2,
+		border:					#e5e4e2,
+		border-bg:				#e5e4e2,
+		accent:					#c4aead,
+		accent-border:			desaturate(darken(#c4aead, 8), 30),
+		accent-alt:				desaturate(darken(#c4aead, 10), 20),
+		accent-bg:				transparentize(#c4aead, 0.75)
 	);

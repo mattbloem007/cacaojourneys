@@ -4,22 +4,24 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
-/* Feature Icons */
+/* Feature Icons
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+margin: (_size(element-margin) * 1.5) 0;
+padding-left: 0; */
 
 	ul.feature-icons {
-		display: flex;
-		flex-wrap: wrap;
-		list-style: none;
-		margin: (_size(element-margin) * 1.5) 0;
-		padding-left: 0;
 
+		list-style: none;
+		width: 1080px;
 		&:first-child {
 			margin-top: 0;
 		}
 
 		li {
-			margin: (_size(element-margin) * 1.25) 0 0 0;
-			padding: 0.5rem 0 0 4.5rem;
+		/*	margin: (_size(element-margin) * 1.25) 0 0 0;*/
+		/*	padding: 0.5rem 0 0 4.5rem;*/
 			position: relative;
 			width: 50%;
 
@@ -47,13 +49,13 @@
 		}
 
 		@include breakpoint('<=small') {
-			margin: 0 0 (_size(element-margin) * 1.5) 0;
+			/*margin: 0 0 (_size(element-margin) * 1.5) 0;*/
 
 			li {
 				width: 100%;
 
 				&:nth-child(2) {
-					margin-top: (_size(element-margin) * 1);
+				/*	margin-top: (_size(element-margin) * 1);*/
 				}
 			}
 		}
