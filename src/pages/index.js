@@ -13,72 +13,82 @@ import { Link } from 'gatsby';
 
 const img_set_1 = [
   {
-    src: require('../assets/images/ashw.png'),
-    thumbnail: require('../assets/images/ashw.png'),
-    title: 'Ashwaghanda',
-    desc: 'Soaring Free Superfoods Potent Plant Ashwaghanda',
+    src: require('../assets/images/cacaopaste850.png'),
+    thumbnail: require('../assets/images/cacaopaste850.png'),
+    title: 'Cacao Paste',
+    desc: 'Soaring Free Superfoods Cacao paste',
     full: true,
   },
   {
-    src: require('../assets/images/immunity.png'),
-    thumbnail: require('../assets/images/immunity.png'),
-    title: 'Immunity',
-    desc: 'Soaring Free Superfoods Potent Plant Immunity',
+    src: require('../assets/images/cacaobutter.png'),
+    thumbnail: require('../assets/images/cacaobutter.png'),
+    title: 'Cacao Butter',
+    desc: 'Soaring Free Superfoods Cacao Butter',
   },
   {
-    src: require('../assets/images/lionsM.png'),
-    thumbnail: require('../assets/images/lionsM.png'),
-    title: 'Lions Mane',
-    desc: 'Soaring Free Superfoods Potent Plant Lions Mane',
+    src: require('../assets/images/cacaonibs850.png'),
+    thumbnail: require('../assets/images/cacaonibs850.png'),
+    title: 'Cacao Nibs',
+    desc: 'Soaring Free Superfoods Cacao Nibs',
+  },
+  // {
+  //   src: require('../assets/images/mucuna.png'),
+  //   thumbnail: require('../assets/images/mucuna.png'),
+  //   title: 'Mucuna',
+  //   desc: 'Soaring Free Superfoods Potent Plant Mucuna',
+  //   full: true,
+  // },
+];
+const img_set_2 = [
+  {
+    src: require('../assets/images/pp-immunity.png'),
+    thumbnail: require('../assets/images/pp-immunity.png'),
+    title: 'Immunity',
+    desc: 'Soaring Free Superfoods Potent Plants Immunity',
+  },
+  {
+    src: require('../assets/images/chaga.png'),
+    thumbnail: require('../assets/images/chaga.png'),
+    title: 'Chaga',
+    desc: 'Soaring Free Superfoods Chaga',
+  },
+  {
+    src: require('../assets/images/ashwagandha-powder.png'),
+    thumbnail: require('../assets/images/ashwagandha-powder.png'),
+    title: 'Ashwagandha',
+    desc: 'Soaring Free Superfoods Potent Plants Ashwangandha',
   },
   {
     src: require('../assets/images/mucuna.png'),
     thumbnail: require('../assets/images/mucuna.png'),
     title: 'Mucuna',
     desc: 'Soaring Free Superfoods Potent Plant Mucuna',
-    full: true,
-  },
-];
-const img_set_2 = [
-  {
-    src: require('../assets/images/gallery/fulls/05.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/05.jpg'),
-    title: 'Any Curiosity',
-    desc: 'Be one with the curiosity',
-    full: true,
-  },
-  {
-    src: require('../assets/images/gallery/fulls/06.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/06.jpg'),
-    title: 'Any source of enlightenment',
-    desc: 'Be one with the soul',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/07.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/07.jpg'),
-    title: 'Be in present',
-    desc: 'Be one with the present',
   },
 ];
 const img_set_3 = [
   {
-    src: require('../assets/images/gallery/fulls/08.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/08.jpg'),
-    title: 'Give away',
-    desc: 'Be one with the empathy',
+    src: require('../assets/images/barleygrass.png'),
+    thumbnail: require('../assets/images/barleygrass.png'),
+    title: 'Barleygrass',
+    desc: 'Soaring Free Superfoods Barleygrass',
   },
   {
-    src: require('../assets/images/gallery/fulls/09.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/09.jpg'),
-    title: 'Moment',
-    desc: 'Be one with the moment',
+    src: require('../assets/images/spirulinapowder850.png'),
+    thumbnail: require('../assets/images/spirulinapowder850.png'),
+    title: 'Spirulina',
+    desc: 'Soaring Free Superfoods Spirulina',
   },
   {
-    src: require('../assets/images/gallery/fulls/10.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/10.jpg'),
-    title: 'Serenity',
-    desc: 'Be one with the purity',
-    full: true,
+    src: require('../assets/images/wheatgrass.png'),
+    thumbnail: require('../assets/images/wheatgrass.png'),
+    title: 'Wheatgrass',
+    desc: 'Soaring Free Superfoods Wheatgrass',
+  },
+  {
+    src: require('../assets/images/goji_berries_850.png'),
+    thumbnail: require('../assets/images/goji_berries_850.png'),
+    title: 'Goji Berries',
+    desc: 'Soaring Free Superfoods Goji Berries',
   },
 ];
 const IndexPage = () => (
@@ -190,7 +200,7 @@ const IndexPage = () => (
           <section>
             <header>
               <h3>Cacao Love</h3>
-              <p>
+              <p style={{fontWeight: "400"}}>
               Cacao also helps us tune deeper into the consciousness of our bodies
               (embodiment) so that we can FEEL how our NS is being nourished on a cellular level.
               It is through this feeling that we begin to INNERstand the importance of our NS for our
@@ -207,7 +217,7 @@ const IndexPage = () => (
           <section>
             <header>
               <h3>Adaptogen Care</h3>
-              <p>
+              <p style={{fontWeight: "400"}}>
                 These are our Allies for restoration and rejuvenation. When we have burnt
                 ourselves to the core with too much fire, adaptogens are the waters that
                 cool and nourish. Where fire is our main element in an active world, adaptogens
@@ -226,7 +236,7 @@ const IndexPage = () => (
           <section>
             <header>
               <h3>Functional Foods</h3>
-              <p>
+              <p style={{fontWeight: "400"}}>
                 Having access to foods that have a functional support to our experience of life is a
                 necessity. With our current agricultural situation, we are not always getting our
                 daily nutrients from the conventional foods we are buying from the store. Our soils

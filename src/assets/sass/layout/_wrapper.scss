@@ -168,6 +168,7 @@
 			&:before {
 				background-attachment: fixed;
 				background-color: _palette(accent);
+				opacity: 0.7;
 				background-image: url('../images/cosmic.png');
 				background-position: -50% 10%;
 				background-repeat: repeat-y;
@@ -196,7 +197,7 @@
 				> header {
 					grid-area: header;
 					justify-self: end;
-					text-align: right;
+					text-align: left;
 
 					h2 {
 						margin: 0 0 (_size(element-margin) * 2.5) 0;
