@@ -6,7 +6,8 @@ import Header from '../components/Header';
 import SideFooter from '../components/SideFooter';
 
 import heroImage from '../assets/images/MG bio.png';
-import pic2 from '../assets/images/pic02.jpg';
+import pic2 from '../assets/images/ceremony.jpeg';
+import pic3 from '../assets/images/cacaocompass.jpeg';
 import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
 import { Link } from 'gatsby';
@@ -42,6 +43,13 @@ const img_set_1 = [
 ];
 const img_set_2 = [
   {
+    src: require('../assets/images/adaptogen.jpeg'),
+    thumbnail: require('../assets/images/adaptogen.jpeg'),
+    title: 'Adaptogen',
+    desc: 'Adaptogens',
+    full: true,
+  },
+  {
     src: require('../assets/images/pp-immunity.png'),
     thumbnail: require('../assets/images/pp-immunity.png'),
     title: 'Immunity',
@@ -67,6 +75,13 @@ const img_set_2 = [
   },
 ];
 const img_set_3 = [
+  {
+    src: require('../assets/images/superfoods.jpeg'),
+    thumbnail: require('../assets/images/superfoods.jpeg'),
+    title: 'Superfoods',
+    desc: 'Superfoods',
+    full: true
+  },
   {
     src: require('../assets/images/barleygrass.png'),
     thumbnail: require('../assets/images/barleygrass.png'),
@@ -182,7 +197,7 @@ const IndexPage = () => (
 
           </p>
           <span className="image main">
-            <img src={pic2} alt="" />
+            <img src={pic3} alt="" />
           </span>
         </div>
       </section>
