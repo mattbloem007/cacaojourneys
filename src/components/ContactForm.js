@@ -82,8 +82,8 @@ const ContactForm = () => {
         <p>
           <strong>Feeling the call?</strong> To book your attendance, please let me know which journeys
           tug at your heart strings. Be sure to check the social media links on the left to see some of the
-          posts for the specific journeys. Kindly request
-
+          posts for the specific journeys. Kindly request if you'd like the flyers personally sent to you
+        </p>
         <form action="javascript:void(0);">
           <div className="field" style={{display: "flex", flexWrap: "wrap"}}>
           {
