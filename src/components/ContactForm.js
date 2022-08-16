@@ -81,8 +81,9 @@ const ContactForm = () => {
       <div className="content">
         <p>
           <strong>Feeling the call?</strong> To book your attendance, please let me know which journeys
-          tug at your heart strings. If you have any questions or concerns please do reach out here
-        </p>
+          tug at your heart strings. Be sure to check the social media links on the left to see some of the
+          posts for the specific journeys. Kindly request
+
         <form action="javascript:void(0);">
           <div className="field" style={{display: "flex", flexWrap: "wrap"}}>
           {

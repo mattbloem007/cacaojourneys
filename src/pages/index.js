@@ -13,11 +13,17 @@ import { Link } from 'gatsby';
 
 const img_set_1 = [
   {
+    src: require('../assets/images/cacao2.jpeg'),
+    thumbnail: require('../assets/images/cacao2.jpeg'),
+    title: 'Cacao',
+    desc: 'Soaring Free Superfoods Cacao',
+    full: true,
+  },
+  {
     src: require('../assets/images/cacaopaste850.png'),
     thumbnail: require('../assets/images/cacaopaste850.png'),
     title: 'Cacao Paste',
     desc: 'Soaring Free Superfoods Cacao paste',
-    full: true,
   },
   {
     src: require('../assets/images/cacaobutter.png'),
@@ -25,12 +31,7 @@ const img_set_1 = [
     title: 'Cacao Butter',
     desc: 'Soaring Free Superfoods Cacao Butter',
   },
-  {
-    src: require('../assets/images/cacaonibs850.png'),
-    thumbnail: require('../assets/images/cacaonibs850.png'),
-    title: 'Cacao Nibs',
-    desc: 'Soaring Free Superfoods Cacao Nibs',
-  },
+
   // {
   //   src: require('../assets/images/mucuna.png'),
   //   thumbnail: require('../assets/images/mucuna.png'),
