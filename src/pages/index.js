@@ -43,8 +43,8 @@ const img_set_1 = [
 ];
 const img_set_2 = [
   {
-    src: require('../assets/images/adaptogen.jpeg'),
-    thumbnail: require('../assets/images/adaptogen.jpeg'),
+    src: require('../assets/images/soaringfree-adaptogens.jpeg'),
+    thumbnail: require('../assets/images/soaringfree-adaptogens.jpeg'),
     title: 'Adaptogen',
     desc: 'Adaptogens',
     full: true,
@@ -105,6 +105,13 @@ const img_set_3 = [
     thumbnail: require('../assets/images/goji_berries_850.png'),
     title: 'Goji Berries',
     desc: 'Soaring Free Superfoods Goji Berries',
+  },
+  {
+    src: require('../assets/images/sfmixes.jpeg'),
+    thumbnail: require('../assets/images/sfmixes.jpeg'),
+    title: 'SF Mixes',
+    desc: 'Soaring Free Superfoods Supershakes',
+    full: true,
   },
 ];
 const IndexPage = () => (
